@@ -7,6 +7,34 @@ Embark on a journey through the cosmos with our SpaceX Launch Dashboard – your
 
 ![image](https://github.com/nmn-yd/Blitz-SpaceX-Dashboard/assets/97431919/9c2741dd-6dd2-41cc-a013-b15d2986d9f5)
 
+## Development Journey and Learning Experience
+
+#### Building from Scratch with Pure CSS
+
+In this project, I've crafted all the components from scratch without relying on any UI library. The use of pure CSS adds a touch of customization and uniqueness to the design.
+
+#### Embracing New Technologies
+
+Throughout the development process, I encountered challenges and embraced opportunities to learn new technologies. Notably, diving into [React-Table](https://react-table.tanstack.com/) and [Chart.js](https://www.chartjs.org/) posed exciting learning curves. Despite being new to these tools, the experience was both enriching and enjoyable.
+
+#### Thank You Blitz!
+
+A special shout-out to [Blitz](https://blitzjs.com/) for this assignment, which provided a platform for acquiring new skills and knowledge. The journey was filled with learning, and I appreciate the chance to expand my expertise.
+
+
+
+## Technologies Used 
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [React Router](https://reactrouter.com/) - Declarative routing for React.js.
+- [Vite](https://vitejs.dev/) - A fast-build tool that supports modern JavaScript features.
+- [TanStack React Table](https://react-table.tanstack.com/) - A headless utility for building flexible, lightweight table components.
+- [Chart.js](https://www.chartjs.org/) - Simple yet flexible JavaScript charting library.
+- [React Chartjs 2](https://www.npmjs.com/package/react-chartjs-2) - A React wrapper for Chart.js.
+
+## Development Tools
+
+- [ESLint](https://eslint.org/) - A tool for identifying and reporting on patterns in JavaScript code.
+- [Vite](https://vitejs.dev/) - Development server and build tool for modern web development.
 
 ## Landing Page
 
@@ -69,10 +97,10 @@ Embark on a journey through the cosmos with our SpaceX Launch Dashboard – your
 
 Ready to embark on your space exploration journey? Follow these simple steps:
 
-1. **Clone the Repository:** `git clone https://github.com/your-username/spacex-launch-dashboard.git`
-2. **Navigate to the Project Directory:** `cd spacex-launch-dashboard`
+1. **Clone the Repository:** `https://github.com/nmn-yd/Blitz-SpaceX-Dashboard.git`
+2. **Navigate to the Project Directory:** `cd Blitz-SpaceX-Dashboard`
 3. **Install Dependencies:** `npm install`
-4. **Start the Adventure:** `npm start`
+4. **Start the Adventure:** `npm run dev`
 
 ## Feedback and Contributions
 
