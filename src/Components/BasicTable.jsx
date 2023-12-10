@@ -60,7 +60,7 @@ function BasicTable({ rockets }) {
                               }[columnEl.column.getIsSorted()] ?? (
                                 <img
                                   className="sorting-icon"
-                                  src="../../public/icons8-sort-40.png"
+                                  src="icons8-sort-40.png"
                                 />
                               )}
                             </>
