@@ -4,7 +4,7 @@ function PageNav() {
   return (
     <header className="main-header">
       <div className="header-icon">
-        <img src="../public/rocket-icon-64.png" alt="Rocket Icon" />
+        <img src="rocket-icon-64.png" alt="Rocket Icon" />
         <Link className="header-title" to="/">
           SpaceX Dashboard
         </Link>
