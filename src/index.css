@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  color: #eee;
+  font-size: 1.125rem;
+  font-family: system-ui;
+  font-size: 1rem;
+}
+
+.main-header {
+  background-color: #333;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-left: 5rem;
+}
+
+.header-title {
+  margin-bottom: 0.3rem;
+  color: #eee;
+
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.route-link {
+  margin-right: 1rem;
+  display: flex;
+  gap: 2rem;
+  margin-right: 5rem;
+}
+.route-button {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #eee;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.route-button:hover {
+  background-color: #385b39;
+}
+
+.route-link .active {
+  background-color: #1b9b1d;
+}
+
+.wrapper {
+  width: 80%;
+  margin-inline: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px;
+  width: 12rem;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #292929;
+}
+
+tbody tr:hover {
+  background-color: #444;
+}
+
+.win {
+  border: 1px solid whitesmoke;
+  padding: 2px 4px;
+  text-align: center;
+  background-color: green;
+}
+
+.lose {
+  border: 1px solid whitesmoke;
+  padding: 2px 4px;
+  background-color: darkred;
+  text-align: center;
+}
+
+.spinner-container {
+  text-align: center;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pagination-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.page-item {
+  margin: 0;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(82, 98, 162);
+  border: 1px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.page-link:disabled {
+  background-color: #aaa;
+  color: #555;
+  cursor: not-allowed;
+}
+
+.page-link:disabled:hover {
+  background-color: #aaa;
+  color: #555;
+}
+.search-container {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 9px;
+  font-size: 20px;
+  border: none;
+  background-color: #faeeee;
+  color: #323b25;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+}
+
+label {
+  display: inline-block;
+  color: #fff;
+}
+
+select {
+  padding: 0.6rem;
+  font-size: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.7); /* Box shadow when focused */
+}
+
+.sorting-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 0.2rem;
+  cursor: pointer;
+}
+
+.asc,
+.des {
+  cursor: pointer;
+}
+
+/* CSS for Analytics */
+
+.charts-wrapper {
+  width: min(900px, 100% - 3rem);
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+.bar-charts {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  gap: 8rem;
+}
+
+.chart-container h1 {
+  margin-bottom: 1.5rem;
+}
+
+.pie-chart {
+  height: 400px;
+}
